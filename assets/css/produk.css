@@ -1,0 +1,32 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;600;800&display=swap');
+
+#produk .container {
+  padding-top: 8rem;
+}
+
+#produk .card {
+  border: 1px solid #fff;
+}
+
+#produk .card img {
+  height: 400px;
+  filter: brightness(30%);
+}
+
+#produk .coffe {
+  color: var(--color-secondary);
+}
+
+#produk .tit {
+  background-color: var(--color-secondary);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}

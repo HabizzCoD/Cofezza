@@ -1,0 +1,157 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;600;800&display=swap');
+
+/* Colors */
+:root {
+  --color-default: #0a0d13;
+  --color-primary: #2f2f30;
+  --color-secondary: #8d5c00;
+  --color-thrith: #2f2f30;
+  --color-fourth: #717172;
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar-dark {
+  transition: 500ms ease;
+  background: transparent;
+}
+.navbar-dark.scrolled {
+  background: var(--color-primary);
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-dark {
+    background: var(--color-primary);
+  }
+}
+
+/* navbar */
+nav {
+  background: var(--color-primary);
+}
+
+#offcanvasNavbar {
+  background: var(--color-primary);
+  color: white;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+nav ul {
+  margin-inline-start: auto;
+}
+
+@media screen and (max-width: 991px) {
+  nav #offcanvasScrolling ul {
+    margin-inline-end: auto;
+  }
+}
+
+.lines {
+  height: 1px;
+  background: #bebebe;
+}
+
+.min {
+  color: var(--color-secondary);
+}
+
+#daTic {
+  background: var(--color-secondary);
+}
+
+/* home */
+
+.home .row {
+  padding-top: 13rem;
+}
+
+#home img {
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 720px;
+  filter: brightness(20%);
+}
+
+#home h1 span {
+  color: var(--color-secondary);
+}
+
+@media screen and (min-width: 991px) {
+  #home h1 {
+    font-size: 50px;
+  }
+}
+
+.glass a:hover {
+  border: none;
+  border-color: none;
+}
+
+.line {
+  height: 3px;
+  width: 10%;
+  background: black;
+}
+
+@media screen and (max-width: 991px) {
+  #produk .colpro {
+    width: 50%;
+  }
+
+  #information .colpro {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 574px) {
+  #produk .colpro {
+    width: 100%;
+  }
+
+  #information .colpro {
+    width: 100%;
+  }
+}
+
+/* testimonial */
+#testimonial .row {
+  margin-top: 5rem;
+}
+
+#testimonial .card {
+  border: none;
+}
+
+/* contact */
+#contact .container {
+  padding-top: 8rem;
+}
+
+/* footer */
+footer {
+  background: var(--color-primary);
+}
+
+#footer .button1:hover {
+  background-color: var(--color-secondary);
+  color: white;
+  border: var(--color-secondary);
+}
+
+footer #navTic {
+  background: var(--color-secondary);
+}
